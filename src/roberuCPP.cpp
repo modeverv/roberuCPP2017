@@ -12,7 +12,11 @@ using namespace std;
 void sec6();
 int sec7f(int, int);
 void sec10();
+void sec12();
 
+/**
+ * main
+ */
 int main() {
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	cout << "Super!!!!" << endl;
@@ -20,6 +24,7 @@ int main() {
 	sec6();
 	cout << sec7f(10, 11) << endl;
 	//sec10();
+	sec12();
 	cout << "End of Program" << endl;
 	return 0;
 }
@@ -34,6 +39,7 @@ void sec6() {
 int sec7f(int x, int y) {
 	return 2 * x + y;
 }
+
 /**
  * 入力を受け取る
  */
@@ -42,4 +48,15 @@ void sec10() {
 	cout << "何か数値を入れてね:";
 	cin >> a;
 	cout << a << endl;
+}
+
+void sec12() {
+	int a = 10;
+	if (a > 3) {
+		cout << "aは3より大きい" << endl;
+	} else if (a > 2) {
+		cout << "aは2より大きい" << endl;
+	} else {
+		cout << "aは2以下" << endl;
+	}
 }
