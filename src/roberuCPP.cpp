@@ -22,6 +22,7 @@ void sec18() {
 		cout << "表示される" << endl;
 	} while (i != 0); //;抜けに注意
 }
+void sec19();
 /**
  * main
  */
@@ -37,6 +38,7 @@ int main() {
 	sec15array();
 	sec17();
 	sec18();
+	sec19();
 	cout << "End of Program" << endl;
 	return 0;
 }
@@ -91,6 +93,20 @@ void sec17() {
 		if (a > 10) {
 			break;
 		}
+	}
+}
+void sec19() {
+	int sign = 3;
+	switch (sign) {
+	case 1:
+		cout << "a" << endl;
+		break;
+	case 2:
+		cout << "b" << endl;
+		break;
+	default:
+		cout << "c" << endl;
+		break;
 	}
 }
 
