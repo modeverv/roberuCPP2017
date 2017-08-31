@@ -15,6 +15,7 @@ void sec10();
 void sec12();
 void sec14();
 void sec15array();
+void sec17();
 
 /**
  * main
@@ -29,6 +30,7 @@ int main() {
 	sec12();
 	sec14();
 	sec15array();
+	sec17();
 	cout << "End of Program" << endl;
 	return 0;
 }
@@ -75,7 +77,16 @@ void sec15array() {
 		cout << ar[i] << endl;
 	}
 }
-
+void sec17() {
+	int a = 1;
+	for (;;) {
+		cout << a << endl;
+		a++;
+		if (a > 10) {
+			break;
+		}
+	}
+}
 
 
 
