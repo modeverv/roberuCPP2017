@@ -14,6 +14,7 @@ int sec7f(int, int);
 void sec10();
 void sec12();
 void sec14();
+void sec15array();
 
 /**
  * main
@@ -27,6 +28,7 @@ int main() {
 	//sec10();
 	sec12();
 	sec14();
+	sec15array();
 	cout << "End of Program" << endl;
 	return 0;
 }
@@ -67,3 +69,21 @@ void sec14() {
 		cout << "######" << endl;
 	}
 }
+void sec15array() {
+	int ar[] = { 1, 2, 3 };
+	for (int i = 0, l = 3; i < l; i++) {
+		cout << ar[i] << endl;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
