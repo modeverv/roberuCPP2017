@@ -16,7 +16,12 @@ void sec12();
 void sec14();
 void sec15array();
 void sec17();
-
+void sec18() {
+	int i = 0;
+	do {
+		cout << "表示される" << endl;
+	} while (i != 0); //;抜けに注意
+}
 /**
  * main
  */
@@ -31,6 +36,7 @@ int main() {
 	sec14();
 	sec15array();
 	sec17();
+	sec18();
 	cout << "End of Program" << endl;
 	return 0;
 }
