@@ -13,6 +13,7 @@ void sec6();
 int sec7f(int, int);
 void sec10();
 void sec12();
+void sec14();
 
 /**
  * main
@@ -25,6 +26,7 @@ int main() {
 	cout << sec7f(10, 11) << endl;
 	//sec10();
 	sec12();
+	sec14();
 	cout << "End of Program" << endl;
 	return 0;
 }
@@ -58,5 +60,10 @@ void sec12() {
 		cout << "aは2より大きい" << endl;
 	} else {
 		cout << "aは2以下" << endl;
+	}
+}
+void sec14() {
+	for (int i = 0, l = 10; i < l; i++) {
+		cout << "######" << endl;
 	}
 }
