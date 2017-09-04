@@ -7,6 +7,8 @@
 //============================================================================
 
 #include <iostream>
+#include <string>
+
 using namespace std;
 
 void sec6();
@@ -23,6 +25,7 @@ void sec18() {
 	} while (i != 0); //;抜けに注意
 }
 void sec19();
+void sec24();
 /**
  * main
  */
@@ -39,6 +42,7 @@ int main() {
 	sec17();
 	sec18();
 	sec19();
+	sec24();
 	cout << "End of Program" << endl;
 	return 0;
 }
@@ -110,6 +114,14 @@ void sec19() {
 	}
 }
 
+void sec24() {
+	int i;
+	char szH[] = "やぁこんちは";
+	for (i = 0; i < strlen(szH); i++) {
+		cout << (int) (unsigned char) szH[i] << ",";
+	}
+	cout << (int) (unsigned char) szH[i] << endl;
+}
 
 
 
