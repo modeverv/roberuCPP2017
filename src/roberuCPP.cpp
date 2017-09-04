@@ -26,6 +26,7 @@ void sec18() {
 }
 void sec19();
 void sec24();
+void sec32();
 /**
  * main
  */
@@ -43,6 +44,7 @@ int main() {
 	sec18();
 	sec19();
 	sec24();
+	sec32();
 	cout << "End of Program" << endl;
 	return 0;
 }
@@ -122,7 +124,14 @@ void sec24() {
 	}
 	cout << (int) (unsigned char) szH[i] << endl;
 }
+void sec32() {
+	char a;
+	char* p;
+	p = &a;
+	cout << "p = " << (unsigned long) p << endl << "&a= " << (unsigned long) &a
+			<< endl;
 
+}
 
 
 
