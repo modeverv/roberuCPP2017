@@ -130,6 +130,13 @@ void sec32() {
 	p = &a;
 	cout << "p = " << (unsigned long) p << endl << "&a= " << (unsigned long) &a
 			<< endl;
+	a = 'a';
+	cout << a << endl;
+	cout << *p << endl;
+	*p = 'b';
+	cout << a << endl;
+	cout << *p << endl;
+
 
 }
 
