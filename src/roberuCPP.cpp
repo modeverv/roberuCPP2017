@@ -27,6 +27,7 @@ void sec18() {
 void sec19();
 void sec24();
 void sec32();
+void sec34();
 /**
  * main
  */
@@ -45,6 +46,7 @@ int main() {
 	sec19();
 	sec24();
 	sec32();
+	sec34();
 	cout << "End of Program" << endl;
 	return 0;
 }
@@ -139,7 +141,14 @@ void sec32() {
 
 
 }
-
+void sec34_1(int *p) {
+	(*p)++;
+}
+void sec34() {
+	int a = 0;
+	sec34_1(&a);
+	cout << a << endl;
+}
 
 
 
